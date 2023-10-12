@@ -1,12 +1,13 @@
-class Cat:
-    species = "Oriental Shorthair"
-    def __init__(self, name, age, color):
-        self.name = name
-        self.age = age
-        self.color = color
+class Car:
+    def __init__(self, color, mileage):
+            self.color = color
+            self.mileage = mileage
 
-Odin = Cat("Odin", 3, "Grijs/Beige")
-Ragnar = Cat("Ragnar", 3, "Zwart")
+    def __str__(self):
+        return f"{self.color} car has {self.mileage} in total!"
 
-print(Odin.color, Ragnar.age)
-print(Odin.species)
+bluecar = Car("Blue", "20,000")
+redcar = Car("Red", "30,000")
+
+print(bluecar)
+print(redcar)
