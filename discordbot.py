@@ -1,3 +1,3 @@
-a = 3
-b = 4
-print(a + b)
+list = ["appel", "banaan", "kiwi", "aardbei"]
+
+print(list[3])
